@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+  }
+  body{
+    background-color: #ffffff;
+  }
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+  .navbar-container{
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    float: left;
+    display: flex;
+    padding: 4vh 10vh;
+  }
+  .navbar-container i{
+    color:#5955b3; 
+    font-size: 40px;
+  }
+  .list{
+    list-style-type: none;
+    display: flex;
+    /* padding-right: 450px; */
+    gap: 30px;
+    padding-top: 10px;
+  }
+  .list li{
+    /* gap: 60px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight:500;
+    font-size: 15px;
+    color: #bdbdbd;
+  }
+  .list li:nth-child(1){
+    color: #000;
+  }
+.navbar-container img{
+    padding-top: 7px;
+    padding-left: 50px;
+    width: 80%;
+}  
+.button-group button{
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #5955b3;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 50px;
+  }
+
+  /* ------------------------------ */
+  /* ---------- LEFT ------------ */
+  /* ------------------------------ */
+  .heading-text{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 55px;
+    width: 30%;
+    color: #3c2f60;
+    line-height: 75px;
+  }
+  .heading-text span{
+    color: #5955b3;
+  }
+  .description{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    font-weight:500;
+    font-size: 15px;
+    width: 25%;
+    color: #9c9c9c;
+  }
+  .banner-container button{
+    position: absolute;
+    top: 77%;
+    left: 8%;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #5955b3;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- RIGHT ------------ */
+  /* ------------------------------ */
+  
+  .banner-container img{
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left: 50%;
+  }
